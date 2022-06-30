@@ -11,8 +11,8 @@
 
 1 - Crée une branche Ex: "feat/i_am_nom_prenom".
 
-2 - Faire un Checkout depuis la branche Develop.
+2 - Faire un Checkout depuis la branche develop.
 
 3 - Inserer vos informations dans la partie requise.
 
-4 - Faire un PR vers la branche Develop.
+4 - Faire un PR vers la branche develop.
