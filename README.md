@@ -17,4 +17,4 @@
 
 3 - Inserer vos informations dans la partie requise.
 
-4 - Faire un PR vers la branche develop.
+4 - Faire un Pull requests vers la branche develop.
