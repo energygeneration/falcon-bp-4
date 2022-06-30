@@ -1,5 +1,5 @@
-#Brief projet : refonte du site de EnergyGeneration
-    Remanier (améliorer) le site de Energy Generation
+# Brief projet (refonte du site de Energy Generation)
+        Remanier (améliorer) le site de Energy Generation
 
 ## les technologies à utiliser 
 - HTML/CSS
