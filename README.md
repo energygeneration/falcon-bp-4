@@ -2,8 +2,8 @@
         Remanier (améliorer) le site de Energy Generation
 
 ## les technologies à utiliser 
--Trello
--Figma
+- Trello
+- Figma
 - HTML/CSS
 - bootstrap
 - js
