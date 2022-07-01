@@ -23,13 +23,13 @@ body {
   height: 40px;
   width: 142px;
   border-radius: 50px;
-  background-color: #7BC9F5;
+  background-color: #7bc9f5;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.logo-header a{
-    color: black;
-    margin-right: 0;
+.logo-header a {
+  color: black;
+  margin-right: 0;
 }
