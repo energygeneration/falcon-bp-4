@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+body{
+          font-family: 'Montserrat', sans-serif;
+}
+.img-col{
+          background-color: #F11010;
+          padding:14PX;
+          
+          
+}
+.img-fluid{
+          height: 95%;
+          width: 93%;
+          
+}
+
+.Paragraphe-photo-promotion p{
+          margin-top: 60px;
+          font-weight: bold;
+}
