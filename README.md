@@ -11,7 +11,7 @@
 
 ## Methodologie de travail
 
-1 - Crée une branche Ex: "feat-nom-prenom".
+1 - Crée une branche Ex: "feat/nom-du-projet".
 
 2 - Faire un Checkout depuis la branche develop.
 
