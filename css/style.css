@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*  ============ font paragraphe ============ */
+p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #009fe3;
+}
+
+.p-regular {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.text-justify {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+}
+
+.p-deux {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 440px;
+}
+
+.pding-bnt{
+  padding: 8px 26px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* ========= section header =========== */
+.width-header {
+  max-width: 1300px;
+}
+
+.liens-header {
+  width: auto;
+  margin: 0;
+}
+
+.font-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 24px;
+}
+
+.logo-header {
+  height: 40px;
+  width: 142px;
+  border-radius: 50px;
+  background-color: #7bc9f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-header a {
+  color: black;
+  margin-right: 0;
+}
+/* ========== section presentation ============= */
+
+/* ========== bar-nos-programmes =========== */
+.bar-nos-prog {
+  width: 100%;
+  min-height: 195px;
+  background-color: #009fe3;
+}
+
+.bar-nos-prog-vdeux {
+  width: 100%;
+  min-height: 113px;
+  background-color: #009fe3;
+}
+
+.bar-nos-prog h1{
+  font-size: 2rem;
+}
+/* =======btn-nos programme ========== */
+.b-e-school {
+  background-color: #ef7249;
+  max-width: 288px;
+  min-height: 72px;
+}
+.b-h-school {
+  background-color: #4f579d;
+  max-width: 288px;
+  min-height: 72px;
+}
+.b-a-school {
+  background-color: #f9b035;
+  max-width: 288px;
+  min-height: 72px;
+}
+
+.btn-nos-prog {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.entrep-solaire-descript {
+  max-width: 563px;
+}
+/* ================== fin css de la page accueil ===================== */
+
+/*  ================== debut css de la page Mentorat ==================== */
+
+.btn-color{
+  background-color: #009fe3;
+}
