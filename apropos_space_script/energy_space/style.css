@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Oxygen&family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
+body{
+          font-family: 'Montserrat', sans-serif;
+}
+p{
+          font-weight: 600;
+}
+.portofolio-carousel{
+          background-color: rgb(36, 35, 35);
+}
+.newsletter_social-networks{
+          background-color: #D9D9D9;
+}
+.social-networks .icons{
+           width: 30%;
+}
+.Infos-slid{
+          height:100%c;
+}
