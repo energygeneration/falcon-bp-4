@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+body{
+          font-family: 'Montserrat', sans-serif;
+}
+.img-col{
+          background-color: #F11010;
+          padding:14px;
+          
+          
+}
+.img-fluid{
+          height: 95%;
+          width: 93%;
+          
+}
+
+.Paragraphe-photo-promotion p{
+          margin-top: 60px;
+          font-weight: bold;
+}
+
+.texts{
+          margin-left: 20% !important;
+}
+
+.texts p {
+
+          font-weight: bold !important ;
+}
+.texts h4, .strategie h4,.rejoigner h2 {
+          color: #7BC9F5;
+          margin-bottom:3% ;
+}
+
+.model .d-flex{
+
+          margin-left: 30% !important;
+          font-weight: bold !important ;
+}
+
+.model .d-flex h4{
+          color: #7BC9F5;
+}
+
+.notre-equipe {
+        background-color: #7BC9F5 ;
+}
+
+.notre-equipe .container{
+
+        margin-bottom: 7%!important;
+}
+.rejoigner{
+        /*background-color: #6610f2;*/
+        background-color: #AC26DB;
+}
+a
