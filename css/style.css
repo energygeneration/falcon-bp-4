@@ -3,47 +3,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-/*  ============ font paragraphe ============ */
-p {
-  font-size: 20px;
-  font-weight: 600;
-}
 
-h1 {
-  font-weight: 500;
-  font-size: 40px;
-  color: #ffffff;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 22px;
-  color: #009fe3;
-}
-
-.p-regular {
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.text-justify {
-  display: flex;
-  align-items: center;
-  text-align: justify;
-  margin: auto;
-}
-
-.p-deux {
-  font-weight: 400;
-  font-size: 20px;
-  max-width: 440px;
-}
-
-.pding-bnt{
-  padding: 8px 26px;
-  font-size: 20px;
-  font-weight: 700;
-}
 /* ========= section header =========== */
 .width-header {
   max-width: 1300px;
@@ -74,11 +34,7 @@ h2 {
   color: black;
   margin-right: 0;
 }
-/* ================== ==================
-===================== fin navbar ============ */
-
-
-
+/*=================== fin navbar ============ */
 
 /* ========= section footer =========== */
 
@@ -96,5 +52,4 @@ h2 {
 {
    width: 30%;
 }
-/* ================== ==================
-===================== fin footer ============ */
+/* ======================= fin footer ============ */
