@@ -39,8 +39,8 @@ body{
 
 .model .d-flex{
 
-          margin-left: 30% !important;
-          font-weight: bold !important ;
+         margin-left: 25%!important;
+         font-weight: bold !important ;
 }
 
 .model .d-flex h4{
@@ -55,12 +55,13 @@ body{
 
         margin-bottom: 7%!important;
 }
-.rejoigner{
-       
-        color:#7BC9F5 ;
-}
+
 .circle h4{
         color: #AC26DB;
+}
+.bg-rejoigner {
+        background-color: #f36523;
+
 }
 
 /* ========= about_page css_end =========== */
