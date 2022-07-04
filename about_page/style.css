@@ -4,6 +4,9 @@
 body{
           font-family: 'Montserrat', sans-serif;
 }
+
+
+/* ========= section about_page =========== */
 .img-col{
           background-color: #F11010;
           padding:14px;
@@ -53,7 +56,37 @@ body{
         margin-bottom: 7%!important;
 }
 .rejoigner{
-        /*background-color: #6610f2;*/
-        background-color: #AC26DB;
+       
+        color:#7BC9F5 ;
 }
-a
+.circle h4{
+        color: #AC26DB;
+}
+
+/* ========= about_page css_end =========== */
+
+
+/* ================== ==================
+===================== fin navbar ============ */
+
+
+
+
+/* ========= section footer =========== */
+
+.footer-page p
+{
+  font-weight: 600;
+}
+
+.newsletter_social-networks
+{
+  background-color: #D9D9D9;
+}
+
+.social-networks .icons
+{
+   width: 30%;
+}
+/* ================== ==================
+===================== fin footer ============ */
