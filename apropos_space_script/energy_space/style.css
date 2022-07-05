@@ -14,3 +14,6 @@ p{
 .social-networks .icons{
            width: 30%;
 }
+.portofolio-carousel h1{
+   justify-content: center !important;
+}
