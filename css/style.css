@@ -74,6 +74,15 @@ body {
   color: black;
   margin-right: 0;
 }
+/*========== section navbar_query ==========*/
+@media screen and (max-width:360px){
+ 
+
+ 
+}
+/*========== section navbar_query_fin ==========*/
+
+
 /* ========= space_page_css =========== */
 
 .portofolio-carousel{
@@ -89,6 +98,73 @@ justify-content: center !important;
 
 
 /* ========= space_page_css-end =========== */
+
+
+
+
+/* ========= section about_page =========== */
+.img-col{
+  background-color: #F11010;
+  padding:14px;
+  
+  
+}
+.img-fluid{
+  height: 95%;
+  width: 93%;
+  
+}
+
+.Paragraphe-photo-promotion p{
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.texts{
+  margin-left: 20% !important;
+}
+
+.texts p {
+
+  font-weight: bold !important ;
+}
+.texts h4, .strategie h4,.rejoigner h2 {
+  color: #7BC9F5;
+  margin-bottom:3% ;
+}
+
+.model .d-flex{
+
+ margin-left: 25%!important;
+ font-weight: bold !important ;
+}
+
+.model .d-flex h4{
+  color: #7BC9F5;
+}
+
+.notre-equipe {
+background-color: #7BC9F5 ;
+}
+
+.notre-equipe .container{
+
+margin-bottom: 7%!important;
+}
+
+.circle h4{
+color: #AC26DB;
+}
+.bg-rejoigner {
+background-color: #f36523;
+
+}
+
+/* ========= about_page css_end =========== */
+
+
+
+
 
 
 /* ========= section footer =========== */
