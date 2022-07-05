@@ -74,6 +74,22 @@ body {
   color: black;
   margin-right: 0;
 }
+/* ========= space_page_css =========== */
+
+.portofolio-carousel{
+  background-color: rgb(36, 35, 35);
+}
+
+.social-networks .icons{
+   width: 30%;
+}
+.portofolio-carousel h1{
+justify-content: center !important;
+}
+
+
+/* ========= space_page_css-end =========== */
+
 
 /* ========= section footer =========== */
 
