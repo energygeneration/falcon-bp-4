@@ -74,6 +74,10 @@ body {
   color: black;
   margin-right: 0;
 }
+/*=============== section carousel ====================*/
+.img-carousel{
+  max-height: 612px;
+}
 /*========== section navbar_query ==========*/
 @media screen and (max-width:576px){
   .query-logo-eg{
