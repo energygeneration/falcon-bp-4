@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*  ============ font paragraphe ============ */
+.fs-paragraphe {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fs-h_un {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.fs-h_deux {
+  font-weight: 700;
+  font-size: 22px;
+  color: #009fe3;
+}
+
+.p-regular {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.text-justify {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+}
+
+.p-deux {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 440px;
+}
+
+.pding-bnt{
+  padding: 8px 26px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* ========= section header =========== */
+.width-header {
+  max-width: 1300px;
+}
+
+.liens-header {
+  width: auto;
+  margin: 0;
+}
+
+.font-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 24px;
+}
+
+.logo-header {
+  height: 40px;
+  width: 142px;
+  border-radius: 50px;
+  background-color: #7bc9f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-header a {
+  color: black;
+  margin-right: 0;
+}
+/*========== section navbar_query ==========*/
+@media screen and (max-width:576px){
+  .query-logo-eg{
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width:320px){
+  .re-size-h_un{
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width:305px){
+  .query-icon-navbar{
+    display: none;
+  }
+}
+/*========== section navbar_query_fin ==========*/
+
+/* ========= section footer =========== */
+
+.footer-page p
+{
+  font-weight: 600;
+}
+
+.newsletter_social-networks
+{
+  background-color: #D9D9D9;
+}
+
+.social-networks .icons
+{
+   width: 30%;
+}
+/* ======================= fin footer ============ */
+
+/* ========== bar-nos-programmes =========== */
+.bar-nos-prog {
+  width: 100%;
+  min-height: 195px;
+  background-color: #009fe3;
+}
+
+.bar-nos-prog-vdeux {
+  width: 100%;
+  min-height: 113px;
+  background-color: #009fe3;
+}
+
+.bar-nos-prog h1{
+  font-size: 2rem;
+}
+/* =======btn-nos programme ========== */
+.b-e-school {
+  background-color: #ef7249;
+  max-width: 288px;
+  min-height: 72px;
+}
+.b-h-school {
+  background-color: #4f579d;
+  max-width: 288px;
+  min-height: 72px;
+}
+.b-a-school {
+  background-color: #f9b035;
+  max-width: 288px;
+  min-height: 72px;
+}
+
+.btn-nos-prog {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.entrep-solaire-descript {
+  max-width: 563px;
+}
+.logo-eg-second{
+  max-width: 436px;
+}
+/* ================== fin css de la page accueil ===================== */
+
+/*  ================== debut css de la page Mentorat ==================== */
+.btn-color{
+  background-color: #009fe3;
+}
+
+/*  ================== fin css de la page Mentorat ==================== */
+
+/* ========= space_page_css =========== */
+
+.portofolio-carousel{
+  background-color: rgb(36, 35, 35);
+}
+
+.social-networks .icons{
+   width: 30%;
+}
+.portofolio-carousel h1{
+justify-content: center !important;
+}
+
+
+/* ========= space_page_css-end =========== */
+
+
+
+
+/* ========= section about_page =========== */
+.img-col{
+  background-color: #F11010;
+  padding:14px;
+  
+  
+}
+.img-fluid{
+  height: 95%;
+  width: 93%;
+  
+}
+
+.Paragraphe-photo-promotion p{
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.texts{
+  margin-left: 20% !important;
+}
+
+.texts p {
+
+  font-weight: bold !important ;
+}
+.texts h4, .strategie h4,.rejoigner h2 {
+  color: #7BC9F5;
+  margin-bottom:3% ;
+}
+
+.model .d-flex{
+
+ margin-left: 25%!important;
+ font-weight: bold !important ;
+}
+
+.model .d-flex h4{
+  color: #7BC9F5;
+}
+
+.notre-equipe {
+background-color: #7BC9F5 ;
+}
+
+.notre-equipe .container{
+
+margin-bottom: 7%!important;
+}
+
+.circle h4{
+color: #AC26DB;
+}
+.bg-rejoigner {
+background-color: #f36523;
+
+}
+
+/* ========= about_page css_end =========== */
