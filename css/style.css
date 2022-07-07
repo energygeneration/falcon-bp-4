@@ -45,9 +45,9 @@ body {
   font-weight: 700;
 }
 /* ========= section header =========== */
-.width-header {
+/* width-header {
   max-width: 1300px;
-}
+} */
 
 .liens-header {
   width: auto;
@@ -248,3 +248,91 @@ background-color: #f36523;
 }
 
 /* ========= about_page css_end =========== */
+
+/* ========= Debut nos programme-page ========= */
+.nos-prog{
+  background-color: #242D84;
+}
+
+.etudiant{
+  background-image: url("../image/etudiant.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .etudiant{
+      height: auto;
+  }
+}
+
+.button-etudiant{
+  font-size: 3vw;
+}
+.width_video{
+  max-width: 848px;
+}
+
+.color-chiffre-card{
+  color: #E30C14;
+  font-size: 96px;
+}
+
+.color-text-card{
+  color: #F1B23E;
+  font-size: 42px;
+}
+.btn-bachlor, .card-color{
+  background-color: #242D84;
+}
+
+/* intervenants{
+  background-image: url('img/travail_groupe.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  background-attachment: fixed;
+} */
+
+.sante-bien-etre{
+  background-image: url("../image/travail_equipe.webp");
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+.photo-en-groupe{
+  background-image: url("../image/DECLIC-OIF.png");
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+.petite-bar{
+  width: 100%;
+  height: 10px;
+}
+.petite-bar-blanche{
+  width: 100%;
+  height: 4px;
+}
+/* .page-video{
+  background-color: #242DB4;
+  width: 100%;
+  height: 100vh;
+} */
+
+.form-width{
+  max-width:600px;
+  background-color: rgb(247, 247, 247);
+}
+.star-color{
+  color: #E30C14;
+}
