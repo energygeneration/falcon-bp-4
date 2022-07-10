@@ -103,12 +103,39 @@ justify-content: center !important;
 
 
 /* ========= section about_page =========== */
-.img-col{
+.accueil-bg-image {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../image/img-carousel-qtre.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.model-bg-image {
+  min-height: 500px;
+  background-image: url('../image/img-carousel-qtre.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.h1-mission{
+  margin-left: 91%;
+  width: 100%;
+}
+.element-fluid {
+  max-width: 100%;
+}
+.arrow_icon{
+  width:25px !important;
+  height: 10px;
+}
+
+/* .img-col{
   background-color: #F11010;
   padding:14px;
   
   
-}
+} */
 .img-fluid{
   height: 95%;
   width: 93%;
