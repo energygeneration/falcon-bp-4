@@ -103,24 +103,28 @@ justify-content: center !important;
 
 
 /* ========= section about_page =========== */
-.accueil-bg-image {
+.about-bg-image {
   height: 100vh;
   min-height: 500px;
-  background-image: url('../image/img-carousel-qtre.webp');
+  background-image: url('../image/img-carousel-trois.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .model-bg-image {
   min-height: 500px;
-  background-image: url('../image/img-carousel-qtre.webp');
+  background-image: url('../image/about_image/modele-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.h1-mission{
-  margin-left: 91%;
-  width: 100%;
+.model-bg-image .col :hover{
+  background-color: darkorchid;
+  color:white;
+}
+.h1-mission {
+  margin-left: 47%;
+  width: 26%;
 }
 .element-fluid {
   max-width: 100%;
@@ -130,12 +134,6 @@ justify-content: center !important;
   height: 10px;
 }
 
-/* .img-col{
-  background-color: #F11010;
-  padding:14px;
-  
-  
-} */
 .img-fluid{
   height: 95%;
   width: 93%;
@@ -170,17 +168,9 @@ justify-content: center !important;
   color: #7BC9F5;
 }
 
-.notre-equipe {
-background-color: #7BC9F5 ;
-}
-
 .notre-equipe .container{
 
 margin-bottom: 7%!important;
-}
-
-.circle h4{
-color: #AC26DB;
 }
 .bg-rejoigner {
 background-color: #f36523;
