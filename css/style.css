@@ -112,15 +112,20 @@ justify-content: center !important;
   background-repeat: no-repeat;
 }
 .model-bg-image {
-  min-height: 500px;
+  height: auto;
+  /* min-height: 500px; */
   background-image: url('../image/about_image/modele-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.model-bg-image .col :hover{
-  background-color: darkorchid;
-  color:white;
+.color-opacity{
+  background-color: #009fe3;
+  opacity:90% ;
+}
+
+.model-bg-image a :hover{
+  color: #f9b035;
 }
 .h1-mission {
   margin-left: 47%;
