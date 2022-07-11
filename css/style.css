@@ -224,9 +224,6 @@ justify-content: center !important;
 
 /* ========= space_page_css-end =========== */
 
-
-
-
 /* ========= section about_page =========== */
 .img-col{
   background-color: #F11010;
@@ -359,11 +356,6 @@ background-color: #f36523;
   width: 100%;
   height: 4px;
 }
-/* .page-video{
-  background-color: #242DB4;
-  width: 100%;
-  height: 100vh;
-} */
 
 .form-width{
   max-width:600px;
@@ -372,8 +364,66 @@ background-color: #f36523;
 .star-color{
   color: #E30C14;
 }
-/* @media all and (max-width: 576px){
-  .container{
-      max-width: ;
+/* ================ section blog ================ */
+
+a{
+  text-decoration: none !important;
+}
+
+.lien-acceuil{
+justify-content: center;
+justify-content: space-around;
+
+}
+.text-blog{
+  color: black;
+}
+.text-blog :hover{
+  color: rgb(9, 207, 246);
+}
+
+@media all and (max-width: 991px){
+  .homme-communicateur{
+    width: 292px !important;
   }
-} */
+}
+@media all and (max-width: 767px){
+  .homme-communicateur{
+      width: 190px !important;
+      height: 297px !important;
+  }
+  hr{
+    display: none;
+  }
+  .container{
+    height: 303px !important;
+  }
+
+  .text-blog{
+    font-size: 10px;
+  }
+  .femme-communicateur{
+      width: 50px !important;
+      height: 50px;
+  }
+  .line{
+      width: 300px !important;
+  }
+}
+
+@media all and (max-width: 320px){
+  body{
+    width: fit-content;
+  }
+}
+
+@media all and (max-width: 575px){
+body{
+  width: fit-content;
+}
+}
+@media all and (max-width: 425px){
+.container{
+   width: 750px !important;
+}
+}
