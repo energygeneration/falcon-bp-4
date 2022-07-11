@@ -178,17 +178,11 @@ justify-content: center !important;
 margin-bottom: 7%!important;
 }
 .bg-rejoigner {
-background-color: #f36523;
+background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
 
 }
 
 /* ========= about_page css_end =========== */
-
-
-
-
-
-
 /* ========= section footer =========== */
 
 .footer-page p
