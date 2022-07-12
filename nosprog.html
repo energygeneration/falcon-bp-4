@@ -586,19 +586,19 @@
     <div class="petite-bar  bg-info "></div>
 
     <div class="container form-width mt-5 mb-5">
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" method="post" action="./form.php">
             <p class="text-center mt-4 text-primary fs-1">POSTULEZ MAINTENANT !</p>
             <hr>
             <div class="col-md-6">
                 <label for="nom" class="form-label">First name <span class="star-color">*</span> </label>
-                <input type="text" class="form-control" id="nom" placeholder="First name" value="" required>
+                <input type="text" class="form-control" id="nom" placeholder="First name" value="" name="first_name" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>
             </div>
             <div class="col-md-6">
                 <label for="prenom" class="form-label">Last name <span class="star-color">*</span></label>
-                <input type="text" class="form-control" id="prenom" placeholder="Last name" value="" required>
+                <input type="text" class="form-control" id="prenom" placeholder="Last name" value="" name="last_name" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>
@@ -606,7 +606,7 @@
 
             <div class="col-md-12">
                 <label for="genre" class="form-label">Genre <span class="star-color">*</span></label>
-                <select class="form-select" id="genre" required>
+                <select class="form-select" id="genre"  name="genre" required>
                     <option selected disabled value="">Veuillez selectionner</option>
                     <option>Homme</option>
                     <option>Femme</option>
@@ -618,18 +618,18 @@
 
             <div class="col-md-6">
                 <label for="email" class="form-label">Email <span class="star-color">*</span></label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" name="mail" id="email">
             </div>
             <div class="col-md-6">
                 <label for="mail-confirme" class="form-label">confirmez votre email <span
                         class="star-color">*</span></label>
-                <input type="email" class="form-control" id="mail-confirme">
+                <input type="email" class="form-control" name="confirm_mail" onchange="passverif()" id="mail-confirme">
             </div>
 
             <div class="col-md-12">
                 <label for="tel" class="form-label">Numéro Whatsapp (avec indicatif pays)
                     ex : +XXX 123 456</label> <span class="star-color">*</span>
-                <input type="tel" class="form-control" id="tel" placeholder=" ex : +XXX 123 456" value="" required>
+                <input type="tel" class="form-control" id="tel" placeholder=" ex : +XXX 123 456" value="" name="tel" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>
@@ -637,7 +637,7 @@
 
             <div class="col-md-12">
                 <label for="pays" class="form-label">Pays <span class="star-color">*</span></label>
-                <select class="form-select" id="pays" required>
+                <select class="form-select" id="pays" name="country" required>
                     <option selected disabled value="">Veuillez selectionner</option>
                     <option> Afrique du Sud</option>
                     <option> Algérie</option>
@@ -704,7 +704,7 @@
             <div class="col-md-12">
                 <label for="niveau-etude" class="form-label">Niveau d'étude <span class="star-color">*</span></label>
                 <select class="form-select" id="niveau-etude" required>
-                    <option selected disabled value="">Veuillez selectionner</option>
+                    <option selected disabled value="" name="grade" >Veuillez selectionner</option>
                     <option>Aucun diplome superieur</option>
                     <option>Bac</option>
                     <option>Bac+2</option>
@@ -719,7 +719,7 @@
 
             <div class="col-md-12">
                 <label for="thematique" class="form-label">Thématique choisie <span class="star-color">*</span> </label>
-                <select class="form-select" id="thematique" required>
+                <select class="form-select" id="thematique" name="program" required>
                     <option selected disabled value="">Veuillez selectionner</option>
                     <option>Energie</option>
                     <option>Agri-busness</option>
@@ -732,7 +732,7 @@
 
             <div class="col-md-12">
                 <label for="campus" class="form-label">Campus préféré <span class="star-color">*</span></label>
-                <select class="form-select" id="campus" required>
+                <select class="form-select" id="campus" name="campus"  required>
                     <option selected disabled value="">Veuillez selectionner</option>
                     <option>Campus Francophone-Lomé </option>
                     <option>Campus Anglophone-Accra</option>
@@ -945,6 +945,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <script src="./js/mail_validation.js"></script>    
 </body>
 
 </html>
