@@ -662,34 +662,26 @@ first section mission_&_vision_impact_notre_modèle
                                     Get our lates info, podcasts, advices...
                                 </p>
                             </div>
-                            <form>
+                            <form action="./conf.php" method="POST">
                                 <div class="mb-3">
                                     <label for="firstname" class="form-label h6">First
                                         Name</label>
-                                    <input type="text" class="form-control" id="firstname">
+                                    <input type="text" name="name" class="form-control" id="firstname" value="">
                                 </div>
+    
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label h6">Email</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1">
+                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" value="">
                                 </div>
-
+    
                                 <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label h6 " for="Check2">Je
-                                        préfère recevoir les informations en
-                                        <br>
-                                        fançais</label>
+                                    <input type="radio" class="form-check-input" id="Check2" name="condition" value="Oui">
+                                    <label class="form-check-label h6" for="Check2">Vous ...</label>
                                 </div>
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="Check2">
-                                    <label class="form-check-label h6" for="Check2">I wish
-                                        to receive the content in
-                                        English</label>
-                                </div>
+    
                                 <div class="btn-button text-center">
-                                    <button type="submit" class="btn btn-primary ">Soumettre</button>
+                                    <button type="submit" class="btn btn-primary " name="envoyer" value="">Soumettre</button>
                                 </div>
-
                             </form>
                         </div>
 
