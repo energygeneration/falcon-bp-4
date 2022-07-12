@@ -225,12 +225,42 @@ justify-content: center !important;
 /* ========= space_page_css-end =========== */
 
 /* ========= section about_page =========== */
-.img-col{
-  background-color: #F11010;
-  padding:14px;
-  
-  
+.about-bg-image {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../image/img-carousel-trois.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+.model-bg-image {
+  height: auto;
+  /* min-height: 500px; */
+  background-image: url('../image/about_image/modele-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.color-opacity{
+  background-color: #009fe3;
+  opacity:90% ;
+}
+
+.model-bg-image a :hover{
+  color: #f9b035;
+}
+.h1-mission {
+  margin-left: 47%;
+  width: 26%;
+}
+.element-fluid {
+  max-width: 100%;
+}
+.arrow_icon{
+  width:25px !important;
+  height: 10px;
+}
+
 .img-fluid{
   height: 95%;
   width: 93%;
@@ -257,7 +287,7 @@ justify-content: center !important;
 
 .model .d-flex{
 
- margin-left: 25%!important;
+ /* margin-left: 25%!important; */
  font-weight: bold !important ;
 }
 
@@ -265,24 +295,17 @@ justify-content: center !important;
   color: #7BC9F5;
 }
 
-.notre-equipe {
-background-color: #7BC9F5 ;
-}
-
 .notre-equipe .container{
 
 margin-bottom: 7%!important;
 }
-
-.circle h4{
-color: #AC26DB;
-}
 .bg-rejoigner {
-background-color: #f36523;
+background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
 
 }
 
 /* ========= about_page css_end =========== */
+
 
 /* ========= Debut nos programme-page ========= */
 .nos-prog{
