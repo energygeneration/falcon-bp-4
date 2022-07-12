@@ -23,8 +23,8 @@ try {
             $sql = "INSERT INTO membres (names, email, nos_conditions)
             VALUES ('$nom', '$email', '$condition')";
             $conn->exec($sql);
-            echo "vous êtes connecté";
-            echo "<a href= 'connexion.html'>Aller à la page de connexion</a> ";
+            echo "Merci de vous être abonné!";
+            echo "<a href= './accueil.html'>Aller à la page d'accueil'</a> ";
         }
     }
 } catch (PDOException $e) {
