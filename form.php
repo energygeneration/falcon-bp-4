@@ -11,21 +11,19 @@ try {
     $dbco = new PDO("mysql:host=$serveur;dbname=$dbname", $user, $pass);
     $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    if (isset($dbco)) {
+    $prenom = $_POST["first_name"];
+    $nom = $_POST["last_name"];
+    $gen = $_POST["genre"];
+    $mail = $_POST["mail"];
+    $confmail = $_POST["confirm_mail"];
+    $telphone = $_POST["tel"];
+    $pays = $_POST["country"];
+    $scholarlevel = $_POST["grade"];
+    $theme = $_POST["program"];
+    $theme = $_POST["campus"];
 
-        $prenom = $_POST["first_name"];
-        $nom = $_POST["last_name"];
-        $gen = $_POST["genre"];
-        $mail = $_POST["mail"];
-        $confmail = $_POST["confirm_mail"];
-        $telphone = $_POST["tel"];
-        $pays = $_POST["country"];
-        $scholarlevel = $_POST["grade"];
-        $theme = $_POST["program"];
-        $camp = $_POST["campus"];
-        
+    if (isset($prenom) && isset($nom) && isset($gen) && isset($mail) && isset($confmail) && isset($telphone) && isset($pays) && isset($scholarlevel) && isset($theme) && isset($theme)) {
         if ($mail === $confmail) {
-
             // stockage des données
             $sql = "INSERT INTO fiche_inscription (prenom, nom, genre, email,email_confirmation, numero_téléphone, pays, niveau, thématique_choisie, campus_préféré )
 
