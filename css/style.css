@@ -388,7 +388,7 @@ background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
   color: #E30C14;
 }
 /* ================ section blog ================ */
-
+/* 
 a{
   text-decoration: none !important;
 }
@@ -449,4 +449,4 @@ body{
 .container{
    width: 750px !important;
 }
-}
+} */
