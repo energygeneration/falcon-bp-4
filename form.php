@@ -1,5 +1,4 @@
 <?php
-
 $servername = "mysql-groupefalcon.alwaysdata.net";
 $dbase = "groupefalcon_egrefonte";
 $username = "275800";
@@ -22,7 +21,7 @@ try {
     $theme = $_POST["program"];
     $theme = $_POST["campus"];
 
-    if (isset($prenom) && isset($nom) && isset($gen) && isset($mail) && isset($confmail) && isset($telphone) && isset($pays) && isset($scholarlevel) && isset($theme) && isset($theme)) {
+    if ($dbco) {
         if ($mail === $confmail) {
             // stockage des données
             $sql = "INSERT INTO fiche_inscription (prenom, nom, genre, email,email_confirmation, numero_téléphone, pays, niveau, thématique_choisie, campus_préféré )
