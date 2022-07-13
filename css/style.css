@@ -1,0 +1,407 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*  ============ font paragraphe ============ */
+.fs-paragraphe {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fs-h_un {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.fs-h_deux {
+  font-weight: 700;
+  font-size: 22px;
+  color: #009fe3;
+}
+
+.p-regular {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.text-justify {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+}
+
+.p-deux {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 440px;
+}
+
+.pding-bnt{
+  padding: 8px 26px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #092bee !important;
+}
+
+/* =============video du header ============= */
+.font-color-blue{
+  color: #011125;
+}
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  }
+
+  .text-un-headerVideo {
+    position: absolute;
+    bottom: 40%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .text-deux-headerVideo{
+    bottom: 35%;
+  }
+/* ========= section header =========== */
+.liens-header {
+  width: auto;
+  margin: 0;
+}
+
+.font-header {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.logo-header {
+  height: 30px;
+  width: 142px;
+  border-radius: 50px;
+  background-color: #7bc9f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-header a {
+  color: black;
+  margin-right: 0;
+}
+
+.navbar-color{
+  background-color: #e9e9e9ad !important;
+}
+/*=============== section carousel ====================*/
+.img-carousel{
+  max-height: 612px;
+}
+/*========== section navbar_query ==========*/
+@media screen and (max-width:576px){
+  .query-logo-eg{
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width:320px){
+  .re-size-h_un{
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width:305px){
+  .query-icon-navbar{
+    display: none;
+  }
+}
+/*========== section navbar_query_fin ==========*/
+
+/* ========= section footer =========== */
+
+.footer-page p
+{
+  font-weight: 600;
+}
+
+.newsletter_social-networks
+{
+  background-color: #D9D9D9;
+}
+
+.social-networks .icons
+{
+   width: 30%;
+}
+/* ======================= fin footer ============ */
+
+/* ========== bar-nos-programmes =========== */
+.bar-nos-prog {
+  width: 100%;
+  min-height: 195px;
+  background-color: #009fe3;
+}
+
+.bar-nos-prog-vdeux {
+  width: 100%;
+  min-height: 113px;
+  background-color: #009fe3;
+}
+
+.bar-nos-prog h1{
+  font-size: 2rem;
+}
+/* =======btn-nos programme ========== */
+.b-e-school {
+  background-color: #ef7249;
+  max-width: 288px;
+  min-height: 72px;
+}
+.b-h-school {
+  background-color: #4f579d;
+  max-width: 288px;
+  min-height: 72px;
+}
+.b-a-school {
+  background-color: #f9b035;
+  max-width: 288px;
+  min-height: 72px;
+}
+
+.btn-nos-prog {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.entrep-solaire-descript {
+  max-width: 563px;
+}
+.logo-eg-second{
+  max-width: 436px;
+}
+/* ================== fin css de la page accueil ===================== */
+
+/*  ================== debut css de la page Mentorat ==================== */
+.btn-color{
+  background-color: #009fe3;
+}
+
+/*  ================== fin css de la page Mentorat ==================== */
+
+/* ========= space_page_css =========== */
+
+.portofolio-carousel{
+  background-color: rgb(36, 35, 35);
+}
+
+.social-networks .icons{
+   width: 30%;
+}
+.portofolio-carousel h1{
+justify-content: center !important;
+}
+
+
+/* ========= space_page_css-end =========== */
+
+/* ========= section about_page =========== */
+.about-bg-image {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../image/img-carousel-trois.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.model-bg-image {
+  height: auto;
+  /* min-height: 500px; */
+  background-image: url('../image/about_image/modele-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.color-opacity{
+  background-color: #009fe3;
+  opacity:90% ;
+}
+
+.model-bg-image a :hover{
+  color: #f9b035;
+}
+.h1-mission {
+  margin-left: 47%;
+  width: 26%;
+}
+.element-fluid {
+  max-width: 100%;
+}
+.arrow_icon{
+  width:25px !important;
+  height: 10px;
+}
+
+.img-fluid{
+  height: 95%;
+  width: 93%;
+  
+}
+
+.Paragraphe-photo-promotion p{
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.texts{
+  margin-left: 20% !important;
+}
+
+.texts p {
+
+  font-weight: bold !important ;
+}
+.texts h4, .strategie h4,.rejoigner h2 {
+  color: #7BC9F5;
+  margin-bottom:3% ;
+}
+
+.model .d-flex{
+
+ /* margin-left: 25%!important; */
+ font-weight: bold !important ;
+}
+
+.model .d-flex h4{
+  color: #7BC9F5;
+}
+
+.notre-equipe .container{
+
+margin-bottom: 7%!important;
+}
+.bg-rejoigner {
+background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
+
+}
+
+/* ========= about_page css_end =========== */
+
+
+/* ========= Debut nos programme-page ========= */
+.nos-prog{
+  background-color: #242D84;
+}
+
+.button-etudiant{
+  position: absolute;
+  font-size: 3vw;
+  top: 30%;
+  border-radius: 40px;
+}
+
+.etudiant{
+  background-image: url("../image/etudiant.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.width_video{
+  max-width: 848px;
+}
+
+.color-chiffre-card{
+  color: #E30C14;
+  font-size: 96px;
+}
+
+.color-text-card{
+  color: #f13e3e;
+  font-size: 42px;
+}
+.btn-bachlor, .card-color{
+  background-color: #242D84;
+}
+
+.intervenants{
+  background-image: url('../image/travail_groupe.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sante-bien-etre{
+  background-image: url("../image/travail_equipe.webp");
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-attachment: fixed;
+}
+
+.photo-en-groupe{
+  background-image: url("../image/DECLIC-OIF.png");
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+.petite-bar{
+  width: 100%;
+  height: 10px;
+}
+.petite-bar-blanche{
+  width: 100%;
+  height: 4px;
+}
+
+.form-width{
+  max-width:600px;
+  background-color: rgb(247, 247, 247);
+}
+.star-color{
+  color: #E30C14;
+}
+/* ================ section blog ================ */
+
+a{
+  text-decoration: none !important;
+}
+
+.lien-acceuil{
+justify-content: center;
+justify-content: space-around;
+
+}
+.text-blog{
+  color: black;
+}
+.text-blog :hover{
+  color: rgb(9, 207, 246);
+}
+
