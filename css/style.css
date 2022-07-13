@@ -388,15 +388,22 @@ background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
   color: #E30C14;
 }
 /* ================ section blog ================ */
-/* 
-a{
-  text-decoration: none !important;
-}
+
+
 
 .lien-acceuil{
 justify-content: center;
 justify-content: space-around;
 
+}
+@media all and (max-width: 630px){
+  .lien-acceuil{
+    display: none!important;
+  }
+}
+/* 
+a{
+  text-decoration: none !important;
 }
 .text-blog{
   color: black;
@@ -445,8 +452,8 @@ body{
   width: fit-content;
 }
 }
-@media all and (max-width: 425px){
-.container{
-   width: 750px !important;
+@media all and (max-width: 1034px){
+.lien-acceuil{
+   displays : none;
 }
 } */
