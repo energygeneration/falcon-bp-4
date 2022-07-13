@@ -388,20 +388,13 @@ background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
   color: #E30C14;
 }
 /* ================ section blog ================ */
-
-a{
-  text-decoration: none !important;
-}
-
 .lien-acceuil{
-justify-content: center;
-justify-content: space-around;
-
-}
-.text-blog{
-  color: black;
-}
-.text-blog :hover{
-  color: rgb(9, 207, 246);
-}
-
+  justify-content: center;
+  justify-content: space-around;
+  
+  }
+  @media all and (max-width: 630px){
+    .lien-acceuil{
+      display: none!important;
+    }
+  }
