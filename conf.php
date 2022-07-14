@@ -24,7 +24,7 @@ try {
             VALUES ('$nom', '$email', '$condition')";
             $conn->exec($sql);
             echo "Merci de vous être abonné!";
-            echo "<a href= './index.html'>Aller à la page d'accueil'</a> ";
+            echo "<a href= './index.html'>Revenir sur la page d'accueil</a> ";
         }
     }
 } catch (PDOException $e) {
