@@ -18,13 +18,14 @@
 
     <div>
         <video id="background-video" autoplay loop muted>
-        <source src="./video/eg.mp4" type="video/mp4">
-    </video>
+            <source src="./video/eg.mp4" type="video/mp4">
+        </video>
 
-    <h1 class="text-white fw-bold text-un-headerVideo text-center">ENERGY GENERATION
-    </h1>
-    <h1 class="text-white fw-bold text-un-headerVideo text-center fs-paragraphe text-deux-headerVideo">Au coeur de la reussite des jeunes 
-    </h1>
+        <h1 class="text-white fw-bold text-un-headerVideo text-center">ENERGY GENERATION
+        </h1>
+        <h1 class="text-white fw-bold text-un-headerVideo text-center fs-paragraphe text-deux-headerVideo">Au coeur de
+            la reussite des jeunes
+        </h1>
     </div>
 
     <!-- ============== section a propos de nous ============ -->
@@ -34,46 +35,67 @@
             <img src="./image/logo-eg-accueil.webp" class="img-fluid logo-eg-second" alt="logo-eg-accueil">
         </div>
 
-        <p class="text-start  fs-paragraphe ">Energy Generation est une <span class="fs-h_deux">organisation panafricaine</span>  qui
+        <p class="text-start  fs-paragraphe ">Energy Generation est une <span class="fs-h_deux">organisation
+                panafricaine</span> qui
             encourage les jeunes
             Africains à
             relever les défis les plus pressants de leur génération (énergie, agriculture, santé, etc.) à travers
-            <span class="fs-h_deux">l'entrepreneuriat et la technologie.</span>  <br> <br>
+            <span class="fs-h_deux">l'entrepreneuriat et la technologie.</span> <br> <br>
             Energy Generation vise à soutenir et à promouvoir les innovations technologiques et entrepreneuriales afin
-            d'identifier, de développer et de diffuser largement les solutions pratiques «<span class="fs-h_deux">made in Africa</span>  ». <br> <br>
-            Mais avant tout, Energy Generation est une <span class="fs-h_deux">plate-forme centrée sur l'humain</span>  qui offre aux individus des
-            possibilités de libérer et d’exprimer toute leur <span class="fs-h_deux">créativité.</span> 
+            d'identifier, de développer et de diffuser largement les solutions pratiques «<span class="fs-h_deux">made
+                in Africa</span> ». <br> <br>
+            Mais avant tout, Energy Generation est une <span class="fs-h_deux">plate-forme centrée sur l'humain</span>
+            qui offre aux individus des
+            possibilités de libérer et d’exprimer toute leur <span class="fs-h_deux">créativité.</span>
         </p> <br> <br>
     </div>
 
-    <div class="container">
-        <div class="row row-cols-2 text-center mb-5">
-            <div class="col-12 col-sm-6 mb-5">
-                <img src="./image/img-vision.webp" class="img-fluid" alt="logo-eg-accueil">
+    <!-- ============== =====================-->
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col mb-3">
+                <div class="card m-auto img-fluid" style="width: 20rem; height: 100%;">
+                    <img src="/image/img-mission.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-h_deux">MISSION</h5>
+                        <p class="card-text">Révolutionner l'accès à l'éducation, à l'accompagnement et au financement
+                            en construisant un
+                            écosystème entrepreneurial... </p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-sm-6 mt-4">
-                <h2 class="fs-h_deux">VISION <br></h2>
-                <span class="p-deux text-justify">
-                    Permettre l'émergence d'une nouvelle génération africaine en mesure de relever le défi de la dignité
-                    humaine sur le continent africain et au-delà.
-                </span>
+            <div class="col mb-3">
+                <div class="card m-auto img-fluid" style="width: 20rem; height: 100%;">
+                    <img src="/image/img-vision.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-h_deux">VISION</h5>
+                        <p class="card-text">Permettre l'émergence d'une nouvelle génération africaine en mesure de
+                            relever le défi de la dignité
+                            humaine sur le continent africain et au-delà.</p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col mb-3">
+                <div class="card m-auto img-fluid" style="width: 20rem; height: 100%;">
+                    <img src="./image/img-form-solaire.webp" class="card-img-top" alt="logo-eg-accueil">
+                    <div class="card-body">
+                        <h5 class="card-title fs-h_deux">Formation solaire</h5>
+                        <p class="card-text">Parce que le solaire représente une véritable opportunité de création
+                            d'emplois pour les jeunes tout
+                            en
+                            participant au développement...</p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-sm-6">
-                <img src="./image/img-mission.webp" class="img-fluid" alt="logo-eg-accueil">
-            </div>
-            <div class="col-12 col-sm-6 mt-4">
-                <h2 class="fs-h_deux">MISSION <br></h2>
-                <span class="p-deux text-justify">
-                    Révolutionner l'accès à l'éducation, à l'accompagnement et au financement enconstruisant un
-                    écosystème entrepreneurial solide où les jeunes africains peuvent prospérer et développer des
-                    entreprises hors ducommun.
-                </span>
-            </div>
+
+
         </div>
-
-        <button type="button" class="btn m-auto mb-5 d-flex btn-danger pding-bnt">À propos</button>
     </div>
 
     <!-- ======== nos programmes =========== -->
@@ -85,13 +107,17 @@
     <div class="container">
         <p class="text-start p-regular mb-5 fs-paragraphe">
             Energy Generation est une organisation panafricaine qui encourage les jeunes
-            Au sein de nos Business Schools,<span class="fs-h_deux">théorie et pratique se rencontrent</span>  pour transformer des idées novatrices en
-            entreprises viables. <br><br> En tant qu'étudiant porteur de projet, vous suivrez <span class="fs-h_deux">une formation diplômante
-            en
-            entrepreneuriat</span>  et aurez l’occasion de bénéficier de l’expérience pratique des professionnels issus
+            Au sein de nos Business Schools,<span class="fs-h_deux">théorie et pratique se rencontrent</span> pour
+            transformer des idées novatrices en
+            entreprises viables. <br><br> En tant qu'étudiant porteur de projet, vous suivrez <span
+                class="fs-h_deux">une formation diplômante
+                en
+                entrepreneuriat</span> et aurez l’occasion de bénéficier de l’expérience pratique des professionnels
+            issus
             d'entreprises leader mondiales de leur secteur. <br> <br> Au sein de nos écoles, les porteurs de projet
             bénéficient
-            des installations du laboratoire pour <span class="fs-h_deux">développer leur prototype</span> , ainsi que d’un accompagnement personnalisé
+            des installations du laboratoire pour <span class="fs-h_deux">développer leur prototype</span> , ainsi que
+            d’un accompagnement personnalisé
             pour structurer leur projet entrepreneurial.
         </p>
     </div>
@@ -115,35 +141,7 @@
             </div>
         </div>
     </div>
-    <!-- ========== formation entreprenariat solaire ============ -->
-
-    <div class="bar-nos-prog text-justify mb-5">
-        <h1 class="m-auto fs-h_un re-size-h_un">LA FORMATION ENTREPRENEURIAT SOLAIRE</h1>
-    </div>
-
-    <div class="container mb-5">
-        <div class="row row-cols-2 mb-5">
-            <div class="col-12 col-sm-6">
-                <img src="./image/img-form-solaire.webp" class="img-fluid" alt="logo-eg-accueil">
-            </div>
-            <div class="col-12 col-sm-6">
-                <p class="p-regular entrep-solaire-descript text-justify me-0 fs-paragraphe">
-                    Parce que le solaire représente une véritable opportunité de création d'emplois pour les jeunes tout
-                    en
-                    participant au développement socio-économique des zones rurales africaines notamment, Energy
-                    Generation
-                    a créé un programme de dix mois pour former puis accompagner des entrepreneurs du solaire.
-
-                    Quel que soit votre niveau d'études actuel, la Formation Entrepreneuriat Solaire vous propose un
-                    programme sur mesure pour vous garantir une formation répondant parfaitement à vos besoins et à vos
-                    projets d'avenir.
-                </p>
-
-            </div>
-        </div>
-
-        <button type="button" class="btn m-auto mb-5 d-flex btn-danger pding-bnt">La Formation solaire</button>
-    </div>
+    <!-- ================== - INCUBATEUR & SEED FUND - =========-->
 
     <div class="bar-nos-prog text-justify mb-5">
         <h1 class="m-auto fs-h_un">L'ENERGY SPACE <br> - INCUBATEUR & SEED FUND -</h1>
@@ -175,10 +173,6 @@
         </div>
 
         <button type="button" class="btn m-auto mb-5 d-flex btn-danger pding-bnt">L'Energy Space</button>
-    </div>
-
-    <div class="bar-nos-prog text-justify mb-5">
-        <h1 class="m-auto fs-h_un">ILS CROIENT EN NOUS !</h1>
     </div>
 
     <!-- ==============section footer =============== -->
