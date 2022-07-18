@@ -29,7 +29,7 @@ try {
             VALUES ('$prenom', '$nom', '$gen', '$mail', '$confmail', '$telphone', '$pays', '$scholarlevel', '$theme', '$camp')";
             $dbco->exec($sql);
             echo "New record created successfully";
-            echo "<a href= './index.html'>Revenir sur la page d'accueil</a> ";
+            echo "<a href= './index.php'>Revenir sur la page d'accueil</a> ";
         } else {
             //données incorrect
             echo "the emails are not identical";
