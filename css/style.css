@@ -398,3 +398,24 @@ background: linear-gradient(90deg,#f28e1e 0%,#ec5a24 100%);
       display: none!important;
     }
   }
+/* ================ section blog_commentaire ================ */
+.tag-categorie{
+  padding-top: 250px;
+}
+.article-text{
+  text-align: justify;
+}
+.align-items{
+  margin-left: 67%;
+}
+.img-hom {
+  height: 95%;
+  width: 100%;
+  
+}
+
+@media all and (max-width: 1000px){
+  .tag-categorie{
+    display: none!important;
+  }
+}
